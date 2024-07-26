@@ -1,0 +1,51 @@
+@font-face {
+    font-family: "Texas Tango";
+    src: url("fonts/TEXAT BOLD PERSONAL USE___.otf") format("truetype");
+}
+body {
+    font-family: "Texas Tango", serif;
+    color: white;
+    background-color: rgb(116, 14, 14); 
+    text-align: center; 
+}
+
+#container {
+    padding: 20px;
+    border: 20px;
+    margin: 10px; 
+    text-align: center; 
+    columns: center;
+}
+
+#cabecera {
+    background-color: rgb(122, 121, 30);
+    box-shadow: 10px, 15px, 30px, 10px , rgba(255, 255, 255, 0.5);
+    font-size: normal; 
+    text-align: left; 
+    color: black;
+    margin: 5px;
+    padding: 5px;
+}
+
+#cabecera #tagline {
+    margin: 10px;
+    font-weight: small;
+    font-size: 8px; 
+    text-align: left; 
+}
+#titlePost {
+    font-weight: bold;
+    padding: 20px;
+    border: 20px;
+    margin: 10px; 
+    font-size: 150%;
+}
+
+#post{
+    font-family: Courier;
+    font-weight: normal;
+    padding: 20px;
+    border: 20px;
+    margin: 10px; 
+    font-size: 100%;
+}
